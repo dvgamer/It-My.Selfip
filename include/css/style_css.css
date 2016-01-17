@@ -1,0 +1,72 @@
+body {
+	background:url(../../images/stone_bg.jpg) fixed;
+	padding:0px;
+	margin:0px;
+	color:#F7F7F7;	
+	cursor:default;
+}
+table {
+	color:#F7F7F7;
+}
+body, table {
+	font-family:"Verdana";
+	font-size:11px;
+}
+a:link, a:visited, a:active {
+	color:#518612;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	color:#95d14d;	
+	text-decoration:none;
+}
+
+h1 {
+	color:#000000;
+	margin:0px;
+	padding-bottom:8px;
+	text-align:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+	font-size:25px;
+	color:#2367c3;
+	text-align:center;
+	margin:0px;
+	padding:5px;	
+	width:80%;
+}
+h2:hover {
+	text-decoration:underline;
+}
+h3 {
+	font-size:140%;
+	color:#333333;
+	margin:0 0 10px 0;
+	border-bottom:#CCC solid 1px;
+	padding:0 0 5px 10px;
+}
+h4 {
+	font-size:100%;
+	margin:10px 0 5px 0;
+}
+h5 {
+	font-size:180%;
+	color:#333333;
+	margin:10px 0 10px 0;
+}
+hr {
+	margin:10px 0 10px 0;	
+}
+input:focus {
+	outline:none;
+}
+input[type=text], textarea {
+	border:#CCC dashed 1px;
+	background-color:#fafafa;
+	padding:2px;
+	color:#333333;
+	font-size:11px;
+	resize:none;
+}

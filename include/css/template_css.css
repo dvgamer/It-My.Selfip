@@ -1,0 +1,105 @@
+/* CSS Document */
+.hakko_nav {
+	background:url(../../images/light_logo.png) -10px 0px no-repeat;
+	padding-top:50px;	
+}
+.logo_line {
+	background:url(../../images/line.jpg) left top;
+	height:2px;
+}
+.nav_home, .nav_store, .nav_info {
+	border:none;
+	cursor:pointer;
+	height:30px;
+}
+
+.nav_home { background:url(../../images/navHome.png) -120px 0px no-repeat; width:60px; }
+.nav_home:hover { background:url(../../images/navHome.png) -60px 0px no-repeat; }
+.selected_home { background:url(../../images/navHome.png) 0px 0px no-repeat !important; }
+
+.nav_store { background:url(../../images/navStore.png) -152px 0px no-repeat; width:76px; }
+.nav_store:hover { background:url(../../images/navStore.png) -76px 0px no-repeat; }
+.selected_store { background:url(../../images/navStore.png) 0px 0px no-repeat !important; }
+
+.nav_info { background:url(../../images/navInfo.png) -130px 0px no-repeat; width:65px; }
+.nav_info:hover { background:url(../../images/navInfo.png) -65px 0px no-repeat; }
+.selected_info { background:url(../../images/navInfo.png) 0px 0px no-repeat !important; }
+
+
+#main_body {
+	margin:10px 5px 10px 5px;
+}
+#box_contents {
+	background-color:#FFFFFF;
+	color:#333333;
+	height:410px;
+	overflow-y:scroll;
+}
+
+.box_main {
+	background-color:#FFFFFF;
+	color:#333333;
+	padding:10px 10px 10px 5px;
+}
+.conner-lt { background:url(../../images/body/conner-lt.png) no-repeat; width:30px; height:8px; }
+.border-t { background:url(../../images/body/border-t.png) repeat-x; height:8px; }
+.conner-rt { background:url(../../images/body/conner-rt.png) no-repeat; width:8px; height:8px; }
+.conner-lb { background:url(../../images/body/conner-lb.png) no-repeat; width:30px; height:8px; }
+.border-b { background:url(../../images/body/border-b.png) repeat-x; height:8px; }
+.conner-rb { background:url(../../images/body/conner-rb.png) no-repeat; width:8px; height:8px; }
+.border-l { background:url(../../images/body/border-l.png) repeat-y; width:8px; }
+.border-r { background:url(../../images/body/border-r.png) repeat-y; width:8px; }
+
+#list_dev {
+	padding:3px 0 3px 10px;
+	margin:7px 0 7px 10px;
+	border-left:#555555 solid 5px;
+	cursor:pointer;	
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+.selected {
+	border-left:#a1cf16 solid 5px !important;
+	border-right:#a1cf16 solid 5px !important;
+	background:#FFFFFF !important;
+	color:#000 !important;
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+#list_dev:hover { background:#484848; border-left:#be0000 solid 5px; }
+
+#list_dev name {
+	font-weight:bold;
+	font-size:140%;
+
+}
+
+#list_dev details {
+	padding:2px 0 2px 3px;
+	color:#AAAAAA;
+	display:block;
+}
+
+#store_game table {
+	color:#333;
+}
+#exception {
+	padding:10px 10px 10px 80px;
+	margin:20px 10px 20px 10px;
+	color:#FFF;
+	font-size:180%;
+	font-weight:bold;
+	text-align:left;
+	background:#ea9f48 url(../../images/Warning.png) 30px 8px no-repeat;
+	border-top:#ab620d solid 3px;
+	border-bottom:#ab620d solid 3px;
+}

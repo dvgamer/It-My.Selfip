@@ -1,0 +1,58 @@
+*html {
+	padding:0px;
+	margin:0px;	
+}
+h1 {
+	color:#2367c3;
+	margin:2px 0 2px 0;
+	padding-bottom:5px;
+	border-bottom:#333333 solid 1px;
+}
+
+/* Gallery Slider */
+#slide-space {
+	height:200px;	
+}
+#slide-img {
+	position:absolute;
+	margin:-24px 0 0 -52px;
+}
+
+#s3slider { 
+	width: 560px; /* important to be same as image width */ 
+	height: 240px; /* important to be same as image height */
+	position: relative; /* important */
+	overflow: hidden; /* important */
+}
+
+#s3sliderContent {
+	width:500px;
+	position: absolute; /* important */
+	top: 0; /* important */
+	margin-left: 0; /* important */
+}
+
+.s3sliderImage {
+	float: left; /* important */
+	position: relative; /* important */
+	display: none; /* important */
+}
+
+.s3sliderImage span {
+	position: absolute; /* important */
+	bottom: 0;
+	left: 0;
+	font: 11px/15px Arial, Helvetica, sans-serif;
+	padding: 10px 13px;
+	width: 475px;
+	background-color: #000000;
+	filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+	-moz-opacity: 0.7; /* here you can set the opacity of box with text */
+	-khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+	opacity: 0.7; /* here you can set the opacity of box with text */
+	color: #ffffff;
+	display: none; /* important */
+}
+.clear {
+   clear: both;
+}

@@ -1,0 +1,11 @@
+Options -Indexes
+Options +FollowSymLinks 
+ErrorDocument 400 /config/error/403.shtml
+ErrorDocument 403 /config/error/403.shtml
+ErrorDocument 404 /config/error/403.shtml
+ErrorDocument 500 /config/error/503.shtml
+
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule !\.(js|ico|gif|jpg|png|css)$ /index.php [L]
