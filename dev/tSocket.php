@@ -3,6 +3,7 @@
 <!-- ทดสอบระบบ Socket ผ่าน PHP ว่าการทำงานของระบบเป็นยังไงแล้วจะนำไปเขียน Class ต้อไป -->
 </head>
 <?php
+date_default_timezone_set("Asia/Bangkok");
 error_reporting(E_ALL);
 
 echo "<h2>TCP/IP Connection</h2>\n";

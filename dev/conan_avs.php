@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set("Asia/Bangkok");
 include_once('../include/lib/DriveReader.class.php');
 
 $data_avs_scripts = "#VideoSource\r\n";

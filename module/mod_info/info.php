@@ -8,7 +8,7 @@ function devSelected(modoule, name) {
 		if(modSelected) { $(modSelected).removeClass('selected'); }
 		$(modoule).addClass('selected');
 		$('#box_contents').html(preloading);
-		$.ajax({ url:'http://it-my.selfip.info/dev/'+name,
+		$.ajax({ url:'http://it-my.selfip.test/dev/'+name,
 			dataType: 'html',
 			error: function(){ },
 			success: function(data){		
